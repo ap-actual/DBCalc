@@ -1,6 +1,7 @@
 # DBCalc
 A quick tool to help parse output .csv's from UDB and create gradebook .csv's to throw into Canvas
-Written by Brian Caskey on 10/01/2021
+
+### Written by Brian Caskey on 10/01/2021
 
 ## Executable
 Your one-stop-shop to getting things done quickly. Find the exectuable here: 
