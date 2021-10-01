@@ -2,6 +2,11 @@
 A quick tool to help parse output .csv's from UDB and create gradebook .csv's to throw into Canvas
 Written by Brian Caskey on 10/01/2021
 
+## Executable
+Your one-stop-shop to getting things done quickly. Find the exectuable here: 
+
+https://drive.google.com/drive/folders/1NqUHwMzO0ToKpVJFItY6cRA97KFqtrn0?usp=sharing
+
 ## Dependencies
 If you wish to dev on this script, you will need pandas, install it either into your venv or with 
 `
