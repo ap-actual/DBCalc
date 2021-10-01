@@ -8,16 +8,19 @@ Your one-stop-shop to getting things done quickly. Find the exectuable here:
 https://drive.google.com/drive/folders/1NqUHwMzO0ToKpVJFItY6cRA97KFqtrn0?usp=sharing
 
 Once you click on the file, you should be able to launch your program (if you get an error message, you may need to install Visual C++ Redistributable), see the link below:
+
 https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-160
 
 ## Dependencies
 If you wish to dev on this script, you will need pandas, install it either into your venv or with 
+
 `
 pip install pandas
 `
 
 ## Running
 To run DBCalc, simply run the exectuable main.exe. If you wish to run the actual py file, you will simply run 
+
 `
 python main.py
 `
