@@ -21,12 +21,7 @@ def getAllowancefile():
 def readfile(fname):
 
     # TODO: input checks & error handling
-
-    try:
-        ans = pd.read_csv(fname)
-
-    except:
-        ans = -1
+    ans = pd.read_csv(fname)
 
     return ans
 
@@ -83,7 +78,7 @@ def getMinutesMissed(df, df_allow):
                         time_missed_minutes) + ' (entire rehearsal) because of DNCI'
 
                 elif 'EBD' in str(row[col]):
-                    time_missed_minutes = -999
+                    time_missed_minutes = 0
                     df.at[index, comments_col] = 'EBD'
 
                 else:
@@ -91,12 +86,12 @@ def getMinutesMissed(df, df_allow):
 
                 df.at[index, missed_minutes_col] = time_missed_minutes
 
-
     return df
 
 
 
 def getAllowedTime(df_allow, day_of_week, first_name, last_name):
+    print(df_allow)
     try:
         tardy_student = df_allow.loc[
             (df_allow['Last name'] == last_name) & (df_allow['First name'] == first_name)]
